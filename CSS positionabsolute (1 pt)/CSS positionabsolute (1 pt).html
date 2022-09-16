@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuadros</title>
+
+    <style>
+        div{
+
+            color: azure;
+        }
+
+        .top{
+
+            background-color: blue;
+
+            height: 200px;
+            width: 200px;
+
+
+
+        }
+
+
+        .mid{
+
+            background-color: crimson;
+  
+            height: 200px;
+            width: 200px;
+
+            grid-row: 2;
+            grid-column: 2/4;
+
+
+        }
+
+        .down{
+
+            background-color: yellow;
+            
+
+            height: 200px;
+            width: 200px;
+ 
+            grid-row: 3;
+        grid-column: 3/4;
+
+
+        }
+        #estructuras .bordeslat{
+            display:grid;
+            grid-template-columns: repeat(6,1fr);
+            gap: 20px;
+
+
+         }
+        
+
+
+
+
+
+    </style>
+</head>
+<body>
+<section id="estructuras">
+    <div class="bordeslat">    
+
+        <div class="top">
+
+            top
+        
+        
+        </div>
+
+        
+        <div class="mid">
+
+            mid
+        
+        
+        </div>
+
+        <div class="down">
+
+            bot
+        
+        
+        </div>
+
+
+</section>
+</div>
+
+
+</body>
+</html>
